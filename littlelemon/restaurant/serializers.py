@@ -14,6 +14,6 @@ class MenuSerializer(serializers.ModelSerializer):
         
 class BookingSerializer(serializers.ModelSerializer):
     class Meta:
-        model : Booking
-        fields : ('ID', 'name', 'No_of_guest', 'Booking_date')
+        model = Booking
+        fields = ('ID', 'name', 'No_of_guests', 'Booking_date')
         
